@@ -1,0 +1,57 @@
+.header {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header-logo {
+  width: 100px;
+  margin-top: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.header-search {
+  display: flex;
+  flex: 1;
+}
+.header-icon {
+  background-color: orange;
+  color: orange;
+  width: 10px;
+  height: 20px !important;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header-link {
+  color: white;
+  text-decoration: none;
+}
+.header-option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.header-optionFirstLine {
+  font-size: 11px;
+}
+.header-optionSecondLine {
+  font-size: 13px;
+  font-weight: 800;
+}
+.header-basket {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+.header-basketcount {
+  font-weight: 900;
+  font-size: 17px;
+}
