@@ -1,6 +1,13 @@
 import React from 'react'
 import './Product.css'
-const Product = ({id,title,price, rating, img}) => {
+const Product = ({ id, title, price, rating, img}) =>
+{   
+    var basket = 0
+    const addToBasket = () =>
+    {
+        basket = basket+1
+        //console.log(basket)
+    }
     return (
         <div className = 'product'>
             <div className = 'productInfo'>
@@ -18,7 +25,7 @@ const Product = ({id,title,price, rating, img}) => {
             </div>
             
             <img src={img} />
-            <button>Add to Basket</button>
+            <button onClick ={addToBasket()} >Add to Basket</button>
         </div>
 
     )

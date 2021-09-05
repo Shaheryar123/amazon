@@ -28,4 +28,5 @@
 .product > button {
   background-color: orange;
   border: 1px solid;
+  cursor: pointer;
 }
