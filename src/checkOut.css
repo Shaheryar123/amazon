@@ -1,0 +1,13 @@
+.checkOut {
+  display: flex;
+}
+.checkoutBanner {
+  width: 100%;
+  height: 200px;
+}
+
+.checkoutImage {
+  width: 12%;
+  border: dotted;
+  border-color: rgb(194, 194, 194);
+}
