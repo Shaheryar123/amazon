@@ -5,7 +5,7 @@ import CheckoutProduct from './CheckoutProduct'
 const CheckOut = () =>
 {
     const [{ basket }] = useStateValue()
-    console.log(basket.length)
+    
     return (
         <div className='checkout'>
             <img className ='checkoutBanner'  src ='https://image.shutterstock.com/image-vector/sale-banner-template-vector-illustrations-600w-1922252276.jpg' />

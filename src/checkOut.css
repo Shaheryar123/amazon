@@ -11,3 +11,14 @@
   border: dotted;
   border-color: rgb(194, 194, 194);
 }
+
+.checkoutProduct {
+  margin-top: 10px;
+  display: flex;
+  margin-left: 10px;
+}
+
+.checkoutTitle {
+  font-size: 20px;
+  font-weight: 700;
+}
