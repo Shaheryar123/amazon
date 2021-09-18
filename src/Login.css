@@ -1,0 +1,14 @@
+.login {
+  margin: 10%;
+}
+.loginDesc {
+  border: solid rgb(224, 223, 223);
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.loginP {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}

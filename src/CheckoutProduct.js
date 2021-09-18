@@ -37,11 +37,7 @@ function CheckoutProduct({ id, title, image, price, rating })
                
             </div>
             <div>
-                {basket.length > 0 && (
-                    < div >
-                <h1>Subtotal</h1>
-                    </div>
-    )}
+                
             </div>
             </div>
     )

@@ -1,0 +1,9 @@
+.subtotal {
+  padding: 10px;
+  border: solid grey;
+  margin-left: 4px;
+}
+
+.subtotalButton {
+  background-color: orange;
+}

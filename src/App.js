@@ -3,7 +3,7 @@ import './App.css';
 import  Header  from './Header'
 import Home from './Home'
 import CheckOut from './checkOut';
-
+import Login from './Login'
 function App() {
   return (  
     <Router>
@@ -12,7 +12,7 @@ function App() {
           
           <Route path ='/login' >
           
-            <h1>Login Page</h1>
+            <Login />
           </Route>
           <Route path ='/checkout' >
           <Header />
